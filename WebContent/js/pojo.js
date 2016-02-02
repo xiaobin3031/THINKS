@@ -627,10 +627,3 @@ function fromUI(){
 	if(X.isEmpty($('textarea[name="resultUI"]').val())) return;
 	
 }
-
-function test(){
-	var v = 'sfersef0xuweibin0fosuer';
-	var t = v.match(/(\d)([a-z]+)\1/i);
-	v = v.replace(/(\d)[a-z]+\1/i,t[t.length - 2] + t[t.length - 1]);
-	alert(v);
-}
