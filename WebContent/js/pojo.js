@@ -537,7 +537,7 @@ function getDao(){
 	t._t('}');
 	$('textarea[name="resultDao"]').val(t.toString());
 }
-
+ 
 function toBol(){
 	if(X.isEmpty($('textarea[name="toBol"]').val())) return;
 	var f = $('textarea[name="resultXml"]').val(),ds = $('textarea[name="resultField"]').val(),ui = $('textarea[name="resultUI"]').val(),r,t,v;
