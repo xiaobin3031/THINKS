@@ -627,3 +627,4 @@ function fromUI(){
 	if(X.isEmpty($('textarea[name="resultUI"]').val())) return;
 	
 }
+
